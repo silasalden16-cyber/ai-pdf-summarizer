@@ -1,0 +1,15 @@
+# Ignore the secret keys!
+.env
+
+# Ignore the heavy virtual environment folder
+.venv/
+venv/
+env/
+
+# Ignore Python "clutter" files
+__pycache__/
+*.py[cod]
+
+# Ignore any temporary PDFs you uploaded while testing
+temp.pdf
+pdf/*.pdf
